@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vraj's Website</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Rubik+Maps&display=swap');
+
+        @import url('https://fonts.googleapis.com/css2?family=Rubik+Maps&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(14, 5, 38);
+            color: white;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            width: 90vw;
+            text-align: center;
+            height: 30px;
+            background-color: rgb(5, 14, 47);
+            align-items: center;
+            padding: 10px;
+            margin: auto;
+            border-radius: 20px;
+            border-bottom: 2px solid white;
+        }
+
+        nav>div {
+            width: 30rem;
+        }
+
+        .right ul {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .right ul li {
+            list-style: none;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: large;
+        }
+
+        .right ul li:hover {
+            color: #c18de9;
+            transform: scale(1.2);
+            transition-property: transform;
+            transition-duration: .3s;
+            transition-timing-function: ease-out;
+            text-shadow: 0 0 20px #00fffb , 0 0 40px #0081bc;
+        }
+
+        .left {
+            font-size: 25px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-weight: bold;
+            text-shadow: 0 0 20px #00fffb , 0 0 40px #0081bc;
+            
+        }
+
+        .first_section {
+            display: flex;
+            justify-content: space-around;
+            width: 95vw;
+            padding: 20px;
+            margin: 30px 0px;
+        }
+
+        .rightsection img {
+            width: 50vw;
+        }
+        .rightsection img :hover{
+           transform: scale(1.3);
+           transition-property: transform;
+           transition-duration: .5s;
+           transition-timing-function: ease-in-out;
+        }
+
+        .leftsection {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .leftsection div {
+            font-family: 'Kalnia', system-ui;
+            font-size: 40px;
+        }
+
+        .leftsection span {
+            font-family: 'Kalnia ', system-ui;
+            font-size: 40px;
+            text-shadow: 0 0 20px #1efffb , 0 0 40px #70b2d0;
+        }
+
+        .purpole {
+            color: rgb(140, 133, 248);
+            text-shadow: 0 0 20px #00fffb , 0 0 40px #0081bc;
+
+        }
+        .hr{
+            border-top: 2px solid white;
+            width: 90vw;
+            margin: auto;
+           
+        }
+        .Intro h1{
+            margin: 20px 90px;
+            border-bottom: 2px solid white;
+            width: 165px;
+            border-radius: 10px;
+            font-weight: 40px;
+            font-size: 30px;
+            text-shadow: 0 0 20px #00fffb , 0 0 40px #0081bc;
+        }
+        .Intro p{
+            margin: 5px 90px;
+            word-break: break-all;
+            text-justify: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Vraj Developer</div>
+            <div class="right">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Projects</li>
+                    <li>Contact Me</li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="first_section">
+
+            <div class="leftsection">
+                <div>Hello,</div>
+                <div>I am Makvana <span class="purpole">VRAJ</span></div>
+                <div>GEC MODASA</div>
+                <!-- Element to contain animated typing -->
+                <span id="element"></span>
+
+                <!-- Load library from the CDN -->
+                <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+                <!-- Setup and start animation! -->
+                <script>
+                    var typed = new Typed('#element', {
+                        strings: ['Web Developer', 'Software Engineer', 'Data Scientist', 'Web Desighner'],
+                        typeSpeed: 60,
+                    });
+                </script>
+            </div>
+
+            <div class="rightsection">
+                 <img src="https://www.dharmishi.com/img/vectors/developer.png" alt="" srcset="">
+            </div>
+
+        </section>
+
+        <section class="second_section">
+
+            <div class="hr"></div>
+
+            <div class="Intro">
+
+                <h1>Introduction</h1>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat illo quaerat ab dignissimos, beatae tempora corrupti officia voluptates laboriosam qui in quo ea, perspiciatis porro magni quae doloremque eius. Ipsa iste, provident voluptatibus consectetur similique autem voluptate perspiciatis sunt reprehenderit ad, a laboriosam ducimus blanditiis suscipit. Sed aliquam amet veritatis sunt distinctio harum accusamus quidem tenetur dolore. Voluptatibus, laudantium? Voluptas explicabo pariatur, quae velit ullam corrupti eligendi maxime corporis vitae id ipsam iste placeat beatae exercitationem nam quisquam in autem repellat excepturi ipsum numquam, inventore labore natus harum. Cupiditate quidem rerum sit ratione, quas magni maxime quod vero est consectetur aspernatur eius doloremque, minima numquam qui, amet iste obcaecati minus? Accusantium quidem aspernatur error sed mollitia explicabo neque non vero eum eveniet rerum quasi vitae, tempore pariatur dolores dignissimos aliquid eaque dolor et quam, fuga, optio enim similique. Delectus expedita repudiandae ullam iure ab. A deserunt recusandae repudiandae asperiores. Similique molestias quas repellendus necessitatibus facilis velit vero voluptatem. Ullam id excepturi cumque officiis doloremque non, voluptatem nihil laudantium exercitationem sunt. Incidunt dolor nostrum tempora error, nobis ipsam tenetur architecto vel eius ad minima voluptatem placeat magnam itaque deserunt et reiciendis odio quaerat. Libero officiis perferendis voluptas quisquam ea fuga dolore nam labore maiores eveniet optio aliquam commodi aut voluptates ducimus temporibus est nisi quo exercitationem delectus, atque enim culpa vero? Pariatur, voluptates dicta rerum doloremque cum ducimus. Reprehenderit illo esse incidunt porro consequuntur nihil reiciendis, dicta eius harum repudiandae quod nam tempora. Laboriosam reprehenderit voluptatem maxime, perspiciatis in, eligendi consequuntur sunt repudiandae error labore non deserunt. Laboriosam dignissimos ipsa, atque reprehenderit, quae perspiciatis eaque harum impedit aliquam consequuntur nostrum! At, cumque reiciendis. Omnis fugiat aliquid tempora optio, libero, voluptatem minus ducimus illo in earum assumenda doloremque, voluptate possimus vitae quibusdam.
+                </p>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+</body>
+
+</html>
